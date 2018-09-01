@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Commands\Lecturer\" />
+    <Folder Include="EventHandlers\Lecturer\" />
+    <Folder Include="Events\Lecturer\" />
+    <Folder Include="Validations\Lecturer\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Chama.Domain.Core\Chama.Domain.Core.csproj" />
+  </ItemGroup>
+
+</Project>
